@@ -248,3 +248,12 @@ main h2::after{
 }
 
 /*SERVICE SECTION*/
+
+.service {
+    width: 1366px;
+    height: 643px;
+    background: #28272C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
