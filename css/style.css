@@ -147,8 +147,7 @@ li a{
 /*    margin: 0*/
 /*}*/
 
-.banner::after{
-    content: url("../images/IconArrowDown.svg");
+.arrow{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,7 +155,7 @@ li a{
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background-color: #FF0000;
+    background: #FF0000 url("../images/IconArrowDown.svg") no-repeat center/21px 22px;
     position: absolute;
     bottom: -27.5px;
     left: calc(50% - 38px);
@@ -530,3 +529,8 @@ footer .container{
     color: #D1D1D1;
 }
 
+footer a{
+    text-decoration: none;
+    font: normal normal bold 14px/19px "Nunito Sans",sans-serif;
+    color:#fff;
+}
